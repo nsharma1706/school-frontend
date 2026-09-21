@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student Registration</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="panel">
+    <p class="eyebrow">School services</p>
+    <h1>Register a student</h1>
+    <p class="intro">Submit student details for enrollment.</p>
+    <form id="registration-form">
+      <label>Name<input name="name" required minlength="2" maxlength="120"></label>
+      <label>Email<input name="email" type="email" required></label>
+      <label>Course<input name="course" required minlength="2" maxlength="120"></label>
+      <label>Phone<input name="phone" type="tel" required minlength="7" maxlength="30"></label>
+      <button type="submit">Register student</button>
+      <p id="message" role="status"></p>
+    </form>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
