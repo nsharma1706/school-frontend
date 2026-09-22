@@ -1,4 +1,4 @@
-const serviceUrl = window.SCHOOL_SERVICE_URL || 'http://localhost:8000';
+const serviceUrl = window.SCHOOL_SERVICE_URL || 'http://a32bfb8e9731541aeb2bef5803447203-1410349870.ap-south-1.elb.amazonaws.com:8000';
 const form = document.querySelector('#registration-form');
 const message = document.querySelector('#message');
 
